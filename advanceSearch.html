@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advance Search</title>
+        <link rel="stylesheet" href="search_style.css"> 
+    </head>
+    <body>
+        <button id="btn" onclick="goBack()">Go Back</button> <br>
+        <script>
+        function goBack() {
+            window.history.back();
+        }   
+</script>
+    <form action="https://www.google.com/search" id=adsh>
+<!--<div id="adsh">
+-->
+    <p style="font-size: 20px;">Find pages with...</p>
+    <div>
+        all these words: <input style="margin-left: 129px;" id="adbt1" type="text" name="as_q"> <br> <br>
+        
+    </div>
+    <div>
+        this exact word or phrase:  <input style="margin-left: 66px;" id="adbt1" type="text" name="as_epq"> <br> <br>
+       
+    </div>
+    <div>
+        any of these words: <input style="margin-left: 109px;" id="adbt1" type="text" name="as_oq"> <br> <br>
+        
+    </div>
+    <div>
+        none of these words: <input style="margin-left: 100px;" id="adbt1" type="text" name="as_eq"> <br> <br>
+        
+    </div>
+    <input id="ads" type="submit" value="Advance Search">
+
+
+    </form>
+    </body>
+</html>

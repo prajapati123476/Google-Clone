@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Images</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="search_style.css">
+    </head>
+    <body>
+        
+            <button id="btn" onclick="goBack()">Go Back</button> <br>
+            <script>
+            function goBack() {
+                window.history.back();
+            }   
+         </script>
+         <form action="https://www.google.com/search">
+            <h1>Google</h1>
+                <i class="fas fa-search"></i>
+                <input type="hidden" name="tbm" value="isch">
+                <input id="abc" type="text" name="q">    
+                <br> <br>
+                <input type="submit" value="Google Search">
+         </form>
+           
+    </body>
+</html>
