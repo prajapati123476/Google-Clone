@@ -7,4 +7,4 @@ A plain and fully functional clone of Google's main page built using only HTML a
 
 ## Note: I'm Feeling Lucky button may produce a redirect notice sometimes.
 
-Built in accordance to CS50 Web's [Project 0](https://cs50.harvard.edu/web/2020/projects/0/search/)
+Built in accordance with CS50 Web's [Project 0](https://cs50.harvard.edu/web/2020/projects/0/search/)
